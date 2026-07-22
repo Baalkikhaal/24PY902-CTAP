@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Physics for Quantum Computing</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:Sora,sans-serif;
+background:#0D1117;
+color:#E6EDF3;
+
+background-image:
+radial-gradient(circle at top right,#1f4f7a33 0%,transparent 40%),
+radial-gradient(circle at bottom left,#7C4DFF22 0%,transparent 45%);
+
+min-height:100vh;
+
+}
+
+.container{
+
+width:min(1200px,92%);
+margin:auto;
+padding:60px 0;
+
+}
+
+header{
+
+text-align:center;
+margin-bottom:60px;
+
+}
+
+header h1{
+
+font-size:3rem;
+font-weight:800;
+color:#00C8FF;
+
+}
+
+header h2{
+
+margin-top:12px;
+font-weight:400;
+font-size:1.3rem;
+color:#B8C1CC;
+
+}
+
+.info{
+
+margin-top:30px;
+
+display:flex;
+justify-content:center;
+gap:50px;
+flex-wrap:wrap;
+
+}
+
+.info div{
+
+background:#161B22;
+padding:15px 30px;
+border-radius:14px;
+border:1px solid #2a3444;
+
+}
+
+.info strong{
+
+display:block;
+color:#00C8FF;
+margin-bottom:6px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(320px,1fr));
+
+gap:28px;
+
+}
+
+.card{
+
+background:#161B22;
+
+border-radius:18px;
+
+padding:28px;
+
+border:1px solid #293342;
+
+transition:.25s;
+
+}
+
+.card:hover{
+
+transform:translateY(-6px);
+
+border-color:#00C8FF;
+
+box-shadow:0 15px 40px rgba(0,200,255,.18);
+
+}
+
+.badge{
+
+display:inline-block;
+
+background:#00C8FF22;
+
+color:#00C8FF;
+
+padding:5px 12px;
+
+border-radius:30px;
+
+font-size:.8rem;
+
+margin-bottom:18px;
+
+}
+
+.card h3{
+
+font-size:1.4rem;
+
+margin-bottom:12px;
+
+}
+
+.card p{
+
+line-height:1.6;
+
+color:#B8C1CC;
+
+margin-bottom:28px;
+
+min-height:72px;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:12px 24px;
+
+background:#00C8FF;
+
+color:#081018;
+
+font-weight:700;
+
+text-decoration:none;
+
+border-radius:10px;
+
+transition:.2s;
+
+}
+
+.button:hover{
+
+background:#63dcff;
+
+}
+
+.coming{
+
+opacity:.45;
+
+}
+
+footer{
+
+margin-top:80px;
+
+text-align:center;
+
+color:#8893A2;
+
+font-size:.9rem;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>Quantum Technology - Computing Theory and Practices</h1>
+
+<h2>24PY902</h2>
+
+<div class="info">
+
+<div>
+
+<strong>Instructor</strong>
+
+Dr. Sreekar Guddeti
+
+</div>
+
+<div>
+
+<strong>Branches</strong>
+
+BioTech CSE AIML ECE ECEVLSI (YIII SI)
+
+</div>
+
+
+</div>
+
+</header>
+
+
+
+<div class="grid">
+
+<div class="card">
+
+<div class="badge">
+
+Course Syllabus
+
+</div>
+
+
+
+
+
+<a class="button"
+
+href="syllabus.pdf">
+
+Press →
+
+</a>
+
+</div>
+
+<div class="card">
+
+<div class="badge">
+
+Refresher 
+
+</div>
+
+<h3>
+
+Brush up of first course on QT
+
+</h3>
+
+<p>
+
+PDF version
+
+</p>
+
+<a class="button"
+
+href="refresher.pdf">
+
+Press →
+
+</a>
+
+</div>
+
+
+
+<footer>
+
+Quantum Computing Theory and Practices
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
